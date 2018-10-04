@@ -20,10 +20,10 @@ exports.run = (client, message, params) => {
             color: 0xD97634,
             author: {
               name: "İstatistik Menüsü",
-              icon_url: "https://cdn.discordapp.com/attachments/487719679868272689/488331544587403274/image0.jpg"
+              icon_url: "https://cdn.discordapp.com/attachments/479287747119415318/496744445006577666/225124_172686522789119_6030441_n.jpg"
             },
 			    "thumbnail": {
-				 "url": "https://cdn.discordapp.com/attachments/487719679868272689/488329963926192158/image0.png"
+				 "url": "https://cdn.discordapp.com/attachments/479287747119415318/496744445006577666/225124_172686522789119_6030441_n.jpg"
 			},
             title: "Ping Durumu :",
             description: `**${Math.round(client.ping)}**`,
