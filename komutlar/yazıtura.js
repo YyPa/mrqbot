@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
   let tailembed = new Discord.RichEmbed()
   .setAuthor(`YazıTura`)
   .addField(`Sonuç`, `Sen Bunu Çevirdin: **Yazı**!`)
-  .setThumbnail(`${message.author.displayAvatarURL}`)
+  .setThumbnail(`https://www.google.com.tr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjclZvB4fHdAhXPDOwKHWVSBoIQjRx6BAgBEAU&url=https%3A%2F%2Fandroidappsapk.co%2Fdetail-yazi-tura-2%2F&psig=AOvVaw1ILh2k15K-dgCYIfNHSi0m&ust=1538913451615758`)
   .setColor("0x00bee8");
   if (rolled == "1")
   {
