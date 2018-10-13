@@ -353,7 +353,7 @@ client.on("message", async message => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase () === "sa") {
-        msg.react("500733858858139668")
+        msg.react("500734336836960257")
   }
   if (msg.content.toLowerCase() === 'sa') {
         msg.reply('Aleyküm selam, hoş geldin :heart: ');
