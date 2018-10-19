@@ -81,7 +81,7 @@ client.unload = command => {
 
 client.on('guildMemberAdd', member => {
   member.addRole(member.guild.roles.find(r => r.name.startsWith('❝ MrQ ™ ❞')));
-  const channel = member.guild.channels.find('name', 'gelen-giden');
+  const channel = member.guild.channels.find('name', 'sayaç-gelen-giden');
   if (!channel) return;
  const embed = new Discord.RichEmbed()
  .setColor('RANDOM')
